@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Oswald:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+ 
+ font-size: 100%;
+ background: linear-gradient(rgb(0, 0, 0),rgb(97, 95, 95));
+}
+
+.cabeçalho{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+.logo{
+   
+    height: 72px;
+}
+
+.menu{
+    display: flex;
+    gap: 32px;
+    font-family: 'DynaPuff', cursive;
+    color: rgb(133, 0, 0);
+    font-weight: 100;
+    font-size: 100;
+    cursor: pointer;
+}
+
+.conteudo{
+    border-top: 0.4px solid rgb(53, 0, 0);
+    margin-bottom: 0;
+    
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 32px;
+}
+
+
+.meiomenu{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.meucu{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: rgb(155, 15, 15);
+}
+
+
+.titulo2{
+    font-family: 'DynaPuff', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(175, 29, 18);
+}
+
+.botão{
+    background-color: rgb(19, 4, 4);
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgb(27, 1, 1);
+    border-radius: 20px;
+    font-family: 'DynaPuff', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: brown;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.vampiro{
+    height: 430px;
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding-top: 10px;
+
+  
+}
+
+.pergunta{
+    border-top: 0.4px solid rgb(53, 0, 0);
+    padding-top: 28px;
+
+    font-family: 'DynaPuff', cursive;
+    font-weight: 400;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 40px;
+}
+
+.logo{
+   
+    display: block;
+    margin: 0 auto;
+ 
+}
+
+
+.botão:hover{
+    background-color: rgb(80, 6, 6);
+   transition:background-color 1s;
+}
